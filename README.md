@@ -44,8 +44,11 @@ Random Forest performed better across all three evaluation metrics.
 The final Random Forest model generated 45,000 future sales predictions. Feature importance analysis identified the seven-day rolling average as the most influential feature.
 
 ## Project Files
-- `Store_Item_Demand_Forecasting.ipynb` – Complete implementation
-- `submission.csv` – Future sales predictions
+
+- [Complete Jupyter Notebook](./Store_Item_Demand_Forecasting.ipynb) – Complete Python implementation, data preprocessing, visualisations, feature engineering, model training and evaluation.
+- [Future Sales Predictions](./submission.csv) – CSV file containing 45,000 predicted sales records.
+- [Requirements](./requirements.txt) – Python libraries required to run the project.
+- [Dataset Information](./data/README.md) – Dataset details and original Kaggle source.
 
 ## Conclusion
 This project demonstrates how machine learning can support retail demand forecasting and help businesses improve inventory planning and reduce stock shortages.
